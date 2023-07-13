@@ -1,18 +1,6 @@
 import 'dart:math';
 
-bool containsDuplicates(List list) {
-  Map map = {};
-  for (var i in list) {
-    if (map.containsKey(i)) {
-      return true;
-    } else {
-      map[i] = 'k';
-    }
-  }
-  return false;
-}
-
-int? missingNumber(List list) {
+int? missingNumber1(List list) {
   var num = list.length;
   for (var i = num; i >= 0; i--) {
     if (!list.contains(i)) {
@@ -22,7 +10,7 @@ int? missingNumber(List list) {
   return null;
 }
 
-List allMissingNumbers(List list) {
+List allMissingNumbers1(List list) {
   var num = list.length;
   List newList = [];
   for (var i = num; i >= 1; i--) {
