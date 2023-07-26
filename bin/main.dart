@@ -2,7 +2,6 @@ import 'package:lol/DSA/myhashmap.dart';
 import 'package:lol/DSA/myhashset.dart';
 import 'package:lol/DSA/que.dart';
 import 'package:lol/DSA/singlylinkedlist.dart';
-import 'package:lol/LeetCode/sean_prashad_probs.dart';
 
 void main() {
   var newList = SinglyLinkedList();
@@ -84,7 +83,7 @@ void main() {
   newQueue.push(3);
   // newQueue.printList();
   List<int> list = [4, 3, 2, 7, 8, 2, 3, 1];
-  print(containDuplicates(list));
-  print(missingNumber(list));
-  print(allMissingNumbers(list));
+  // print(containDuplicates(list));
+  // print(missingNumber(list));
+  // print(allMissingNumbers(list));
 }
